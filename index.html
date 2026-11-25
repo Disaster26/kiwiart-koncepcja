@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Doradztwo PR, CSR i ESG dla firm | KIWI ART Toruń</title>
+<meta name="description" content="KIWI ART: doradztwo PR, CSR i ESG, zarządzanie reputacją i szkolenia dla zarządów i marek premium. Od 2010 roku. Pakiety Executive, warsztaty, konsultacje kryzysowe. Tel. 507 110 885.">
+<meta name="theme-color" content="#1E3D2F">
+<link rel="icon" href="img/znak.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/cormorant-garamond-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/roboto-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/malgorzata-kaczorek.webp" fetchpriority="high">
+<style>
+@font-face{font-family:Cormorant;font-style:normal;font-weight:300 700;font-display:swap;src:url(fonts/cormorant-garamond-latin-wght-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Cormorant;font-style:normal;font-weight:300 700;font-display:swap;src:url(fonts/cormorant-garamond-latin-ext-wght-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Roboto;font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/roboto-latin-wght-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Roboto;font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/roboto-latin-ext-wght-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{--czern:#111111;--zielen:#1E3D2F;--zielen2:#2A5341;--lima:#C9E265;--szary:#F1F3F2;--linia:#D9DEDB;--tekst:#2E3431}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:70px}
+body{margin:0;background:#fff;color:var(--czern);font:17px/1.65 Roboto,system-ui,sans-serif;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+.wrap{width:min(1200px,100% - 40px);margin-inline:auto}
+h1,h2,h3{font-family:Cormorant,Georgia,serif;font-weight:600;line-height:1.04;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(36px,4.6vw,60px)}
+h3{font-size:clamp(26px,2.4vw,32px)}
+p{margin:0 0 1em}
+:focus-visible{outline:3px solid var(--lima);outline-offset:3px}
+section{padding:clamp(64px,8vw,120px) 0}
+.szary{background:var(--szary)}
+
+/* belka - zaokraglony pasek ze znaku */
+.belka{display:inline-block;width:34px;height:9px;border-radius:5px;background:currentColor;transform:rotate(-42deg);flex:none}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:54px;padding:0 28px;border-radius:27px;font:600 17px/1 Roboto,sans-serif;text-decoration:none;border:2px solid currentColor;transition:background .2s,color .2s}
+.btn-jasny{background:#fff;color:var(--zielen);border-color:#fff}
+.btn-jasny:hover{background:var(--lima);border-color:var(--lima)}
+.btn-obrys{color:#fff}
+.btn-obrys:hover{background:#fff;color:var(--zielen)}
+.btn-ciemny{background:var(--zielen);color:#fff;border-color:var(--zielen)}
+.btn-ciemny:hover{background:var(--czern);border-color:var(--czern)}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--linia)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:66px;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--czern)}
+.logo svg{width:36px;height:30px}
+.logo span{font:500 25px/1 Roboto,sans-serif;letter-spacing:-.01em}
+.menu{display:flex;gap:28px;align-items:center}
+.menu a{text-decoration:none;font-size:16px;font-weight:500}
+.menu a:hover{color:var(--zielen2)}
+.menu .tel{padding:10px 18px;border-radius:22px;background:var(--zielen);color:#fff}
+.menu .tel:hover{background:var(--czern);color:#fff}
+.burger{display:none;background:none;border:0;width:48px;height:48px;padding:12px;cursor:pointer}
+.burger i{display:block;height:3px;border-radius:2px;background:var(--czern);margin:5px 0}
+
+/* pierwszy ekran */
+.hero{background:var(--zielen);color:#fff;padding:0;position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;align-items:end;gap:40px;min-height:min(760px,calc(100svh - 66px))}
+.hero-txt{align-self:center;padding:56px 0;position:relative;z-index:2}
+.hero h1{font-size:clamp(40px,5.4vw,76px);font-weight:600;margin-bottom:26px}
+.hero .lead{font-size:clamp(17px,1.4vw,20px);color:#E2EAE5;max-width:560px;margin-bottom:34px}
+.hero .lead b{color:#fff;font-weight:600}
+.przyciski{display:flex;flex-wrap:wrap;gap:14px}
+.hero-foto{position:relative;align-self:end;justify-self:center;width:100%;max-width:470px}
+.hero-foto img{position:relative;z-index:2;width:100%;height:auto}
+.znak-tlo{position:absolute;z-index:1;width:112%;left:-62%;bottom:34%;color:var(--zielen2)}
+.znak-tlo .b2{color:var(--lima)}
+.hero .podpis{position:absolute;z-index:3;left:0;bottom:28px;background:#fff;color:var(--czern);padding:12px 18px;border-radius:6px;font-size:15px;line-height:1.35}
+.hero .podpis b{display:block;font-family:Cormorant,serif;font-size:21px}
+
+/* trzy belki */
+.intro{display:grid;grid-template-columns:1fr 1fr;gap:40px 80px;align-items:end;margin-bottom:56px}
+.intro p{font-size:19px;color:var(--tekst);margin:0}
+.belki{display:grid;gap:16px}
+.pas{display:grid;grid-template-columns:200px 1fr auto;align-items:center;gap:28px;padding:26px 40px;border-radius:60px;text-decoration:none}
+.pas b{font-family:Cormorant,serif;font-size:clamp(48px,5vw,68px);font-weight:600;line-height:1}
+.pas span{font-size:15px;opacity:.75;display:block}
+.pas p{margin:0;font-size:clamp(19px,1.7vw,23px);font-family:Cormorant,serif;font-weight:600;line-height:1.25}
+.pas.pr{background:var(--czern);color:#fff}
+.pas.csr{background:var(--szary);color:var(--czern)}
+.pas.esg{background:var(--zielen);color:#fff}
+.pas.esg b{color:var(--lima)}
+
+/* wartosci */
+.karty{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.karta img{width:100%;aspect-ratio:858/418;object-fit:cover;border-radius:10px;background:#ddd}
+.karta h3{margin:22px 0 10px;font-size:28px}
+.karta p{color:var(--tekst);margin:0}
+.naglowek{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:44px}
+.naglowek p{max-width:520px;color:var(--tekst);margin:0}
+
+/* program */
+.program{background:var(--zielen);color:#fff}
+.program .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px 80px}
+.program h2 small{display:block;font-size:.55em;color:var(--lima);margin-top:8px}
+.program p{color:#DCE5DF}
+.filary{list-style:none;margin:0;padding:0;border-top:1px solid #3C6553}
+.filary li{display:flex;gap:22px;align-items:flex-start;padding:22px 0;border-bottom:1px solid #3C6553}
+.filary .belka{color:var(--lima);margin-top:14px}
+.filary b{display:block;font-family:Cormorant,serif;font-size:25px;line-height:1.15;font-weight:600}
+.filary span{color:#C3D1C8;font-size:16px}
+
+/* pakiety */
+.pakiety{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.pakiet{border:1px solid var(--linia);border-radius:14px;padding:34px 30px;display:flex;flex-direction:column;gap:14px}
+.pakiet h3{font-size:30px}
+.pakiet .cena{font-family:Cormorant,serif;font-size:30px;font-weight:600;line-height:1.1}
+.pakiet .cena small{display:block;font:400 14px/1.4 Roboto,sans-serif;color:#5A615D;margin-top:4px}
+.pakiet p{color:var(--tekst);margin:0;flex:1}
+.pakiet .btn{align-self:flex-start}
+.pakiet.wybor{background:var(--czern);color:#fff;border-color:var(--czern)}
+.pakiet.wybor p,.pakiet.wybor .cena small{color:#C9CCCA}
+.pakiet.wybor .znacznik{color:var(--lima);font-size:15px;font-weight:600}
+.pakiet.wybor .btn{background:#fff;color:var(--czern);border-color:#fff}
+.pakiet.wybor .btn:hover{background:var(--lima);border-color:var(--lima)}
+.uwaga{margin-top:22px;font-size:15px;color:#5A615D}
+
+/* listy */
+.dwie{display:grid;grid-template-columns:1fr 1fr;gap:56px 80px}
+.lista{list-style:none;margin:22px 0 0;padding:0}
+.lista li{display:flex;gap:16px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--linia);font-size:17px}
+.lista .belka{width:22px;height:6px;margin-top:11px;color:var(--zielen)}
+.foto-szkolenia{margin-top:34px;border-radius:10px;width:100%;aspect-ratio:1176/784;object-fit:cover}
+
+/* projekty */
+.projekty{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.projekt{display:flex;flex-direction:column;border:1px solid var(--linia);border-radius:14px;padding:26px;text-decoration:none;transition:border-color .2s,transform .2s}
+.projekt:hover{border-color:var(--zielen);transform:translateY(-3px)}
+.projekt .lg{height:96px;display:flex;align-items:center;margin-bottom:22px}
+.projekt .lg img{max-height:80px;width:auto;max-width:100%}
+.projekt h3{font-size:25px;margin-bottom:8px}
+.projekt p{color:var(--tekst);font-size:16px;flex:1}
+.projekt .adres{font-weight:600;color:var(--zielen);font-size:15px}
+.marki{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px 40px;margin-top:64px;padding-top:44px;border-top:1px solid var(--linia)}
+.marki p{width:100%;margin:0;color:#5A615D;font-size:15px}
+.marki img{height:52px;width:auto;filter:grayscale(1);opacity:.8;transition:filter .2s,opacity .2s}
+.marki img:hover{filter:none;opacity:1}
+
+/* efekty i faq */
+details{border-bottom:1px solid var(--linia);padding:4px 0}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;padding:18px 0;font-family:Cormorant,serif;font-size:25px;font-weight:600;line-height:1.2}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font:400 28px/1 Roboto,sans-serif;color:var(--zielen)}
+details[open] summary::after{content:"\2013"}
+details p{color:var(--tekst)}
+
+/* kontakt */
+.kontakt .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:stretch}
+.kontakt h2{margin-bottom:22px}
+.kontakt .przyciski{margin:28px 0 30px}
+.dane{font-size:15px;color:#5A615D;line-height:1.7}
+.mapa{border-radius:14px;overflow:hidden;min-height:420px;background:var(--szary)}
+.mapa iframe{display:block;width:100%;height:100%;min-height:420px;border:0}
+
+/* stopka */
+.stopka{background:var(--czern);color:#B9BDBA;padding:44px 0;font-size:15px}
+.stopka .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px 40px}
+.stopka .logo{color:#fff}
+.stopka a{text-decoration:none}
+
+/* wylinka */
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+@media (min-width:1700px){
+  .wrap{width:min(1440px,100% - 80px)}
+  .hero-foto{max-width:560px}
+}
+@media (max-width:1100px){
+  .projekty{grid-template-columns:repeat(2,1fr)}
+  .pas{grid-template-columns:150px 1fr}
+  .pas p{grid-column:2}
+}
+@media (max-width:900px){
+  .menu{display:none;position:absolute;top:66px;left:0;right:0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 20px;border-bottom:1px solid var(--linia)}
+  .menu.otwarte{display:flex}
+  .menu a{padding:14px 0;border-bottom:1px solid var(--linia);font-size:18px}
+  .menu .tel{margin-top:14px;text-align:center;border-bottom:0}
+  .burger{display:block}
+  .hero .wrap{grid-template-columns:1fr;gap:0;min-height:0}
+  .hero-txt{padding:34px 0 30px}
+  .hero-foto{max-width:360px}
+  .znak-tlo{width:90%;left:-30%;bottom:40%}
+  .intro,.program .wrap,.dwie,.kontakt .wrap{grid-template-columns:1fr}
+  .intro{gap:20px;margin-bottom:36px}
+  .karty{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:16px;scrollbar-width:none}
+  .karty::-webkit-scrollbar{display:none}
+  .karta{flex:0 0 82%;scroll-snap-align:start}
+  .pakiety{grid-template-columns:1fr}
+  .naglowek{flex-direction:column;align-items:flex-start;margin-bottom:32px}
+}
+@media (max-width:600px){
+  body{font-size:16px}
+  .wrap{width:calc(100% - 32px)}
+  .logo span{font-size:22px}
+  .hero h1{font-size:clamp(33px,9.4vw,40px);margin-bottom:16px}
+  .hero .lead{font-size:16px;line-height:1.55;margin-bottom:26px}
+  .przyciski{flex-direction:column;gap:10px}
+  .przyciski .btn{width:100%;min-height:50px}
+  .hero .podpis{bottom:16px;font-size:14px}
+  .pas{grid-template-columns:1fr;gap:6px;padding:22px 28px;border-radius:30px}
+  .pas p{grid-column:1}
+  .projekty{grid-template-columns:1fr}
+  .marki{justify-content:center;gap:24px 30px}
+  .marki img{height:40px}
+  .karta{flex-basis:86%}
+  .mapa,.mapa iframe{min-height:320px}
+}
+@media (max-width:600px) and (max-height:700px){
+  .hero-txt{padding:22px 0 24px}
+  .hero h1{font-size:31px;margin-bottom:12px}
+  .hero .lead{font-size:15.5px;margin-bottom:24px}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="KIWI ART - strona główna">
+      <svg viewBox="0 0 64 52" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 33 35 7"/><path d="M19 45 30 34 40 44"/><path d="M38 23 54 39"/></g></svg>
+      <span>kiwiART</span>
+    </a>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+    <nav class="menu" id="menu" aria-label="Menu główne">
+      <a href="#uslugi">PR, CSR, ESG</a>
+      <a href="#pakiety">Pakiety</a>
+      <a href="#szkolenia">Szkolenia</a>
+      <a href="#projekty">Projekty</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="tel" href="tel:+48507110885">507 110 885</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-txt">
+      <h1>Doradztwo PR, CSR i ESG. Wszystko zaczyna się od możliwości</h1>
+      <p class="lead">Wspieramy firmy w tworzeniu biznesu <b>odpowiedzialnego, transparentnego i odpornego na wyzwania przyszłości</b>. Pracujemy z markami, zarządami i założycielami od 2010 roku.</p>
+      <div class="przyciski">
+        <a class="btn btn-jasny" href="#pakiety">Pakiety doradcze</a>
+        <a class="btn btn-obrys" href="tel:+48507110885">Zadzwoń: 507 110 885</a>
+      </div>
+    </div>
+    <div class="hero-foto">
+      <svg class="znak-tlo" viewBox="0 0 64 52" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 33 35 7"/><path class="b2" d="M19 45 30 34 40 44"/><path d="M38 23 54 39"/></g></svg>
+      <img src="img/malgorzata-kaczorek.webp" width="705" height="935" alt="Małgorzata Kaczorek, prezes KIWI ART" fetchpriority="high">
+      <p class="podpis"><b>Małgorzata Kaczorek</b>prezes zarządu KIWI ART</p>
+    </div>
+  </div>
+</section>
+
+<section id="uslugi">
+  <div class="wrap">
+    <div class="intro">
+      <h2>Kiedy wszystko staje się szansą</h2>
+      <p>Łącząc doświadczenie PR, wiedzę z zakresu CSR oraz nowoczesne podejście do ESG, pomagamy organizacjom budować trwałą wartość: dla biznesu, społeczeństwa i środowiska.</p>
+    </div>
+    <div class="belki">
+      <div class="pas pr"><div><b>PR</b><span>Public Relations</span></div><p>buduje rozpoznawalność, zaufanie i sprzedaż</p></div>
+      <div class="pas csr"><div><b>CSR</b><span>Corporate Social Responsibility</span></div><p>buduje reputację, odpowiedzialność i przewagę marki</p></div>
+      <div class="pas esg"><div><b>ESG</b><span>Environmental, Social, Governance</span></div><p>buduje wiarygodność, prestiż i przyszłość firmy 2026+</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="szary">
+  <div class="wrap">
+    <div class="naglowek">
+      <h2>Dziś silna marka to nie tylko rozpoznawalność</h2>
+    </div>
+    <div class="karty">
+      <article class="karta">
+        <img src="img/mozliwosci.webp" width="858" height="418" alt="Czarno-białe zdjęcie: twarz kobiety w koronie z rozgałęzionych form" loading="lazy">
+        <h3>#morethanfair</h3>
+        <p>Od lat wspieramy projekty i marki zorientowane na przyszłość i społecznie odpowiedzialne.</p>
+      </article>
+      <article class="karta">
+        <img src="img/ludzie.webp" width="868" height="418" alt="Dwie roześmiane kobiety w rozmowie" loading="lazy">
+        <h3>#humantohuman</h3>
+        <p>Współpracujemy z klientami, którzy rozumieją, że na końcu każdego biznesu zawsze jest człowiek, i na niego kierujemy nasz focus.</p>
+      </article>
+      <article class="karta">
+        <img src="img/strategia.webp" width="868" height="418" alt="Białe figury szachowe odbite w szachownicy" loading="lazy">
+        <h3>#hautebusinessculture</h3>
+        <p>Dobrostan jednostki (klienta) jest najskuteczniejszym wskaźnikiem postępu, a czas kluczowym argumentem w każdej analizie, bo bezcennym.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="program">
+  <div class="wrap">
+    <div>
+      <h2>Executive Brand Responsibility &amp; Reputation Advisory<small>program w czterech filarach</small></h2>
+      <p style="margin-top:28px">Zintegrowana usługa doradcza dla marek, właścicieli i zarządów, którzy chcą budować biznes odpowiedzialny, widoczny, reputacyjnie bezpieczny i gotowy na oczekiwania rynku 2026+.</p>
+      <p>Łączymy strategiczny CSR, PR, przygotowanie pod ESG, zarządzanie reputacją oraz wsparcie w decyzjach komunikacyjnych i społecznie wrażliwych. To usługa dla organizacji, które nie szukają pojedynczych działań marketingowych, lecz partnera w rozwoju marki w obszarze zaufania, odpowiedzialności i przewagi konkurencyjnej.</p>
+    </div>
+    <ul class="filary">
+      <li><i class="belka"></i><div><b>CSR / Responsible Brand Strategy</b><span>strategia odpowiedzialności marki</span></div></li>
+      <li><i class="belka"></i><div><b>PR / Visibility / Thought Leadership</b><span>widoczność i pozycjonowanie eksperckie</span></div></li>
+      <li><i class="belka"></i><div><b>ESG Readiness / S + G / Responsible Governance</b><span>gotowość ESG i ład organizacyjny</span></div></li>
+      <li><i class="belka"></i><div><b>Reputation Management / Risk / Sensitive Issues Support</b><span>zarządzanie reputacją i kryzysem</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<section id="pakiety">
+  <div class="wrap">
+    <div class="naglowek">
+      <h2>Pakiety Executive</h2>
+      <p>W zależności od pakietu: konkretna liczba spotkań strategicznych, audyty, projektowanie działań, identyfikacja kluczowych ryzyk i szans, mapa działań i rekomendacji, konsultacje kryzysowe, wsparcie 24/7.</p>
+    </div>
+    <div class="pakiety">
+      <article class="pakiet">
+        <h3>Executive Essential</h3>
+        <p>Wejście na poziom strategicznego zarządzania marką.</p>
+        <div class="cena">6 000 - 13 000 zł<small>netto miesięcznie</small></div>
+        <a class="btn btn-ciemny" href="#kontakt">Zapytaj o ofertę</a>
+      </article>
+      <article class="pakiet wybor">
+        <span class="znacznik">najczęściej wybierany</span>
+        <h3>Executive Growth</h3>
+        <p>Pakiet strategiczny dla marek, które chcą rosnąć świadomie i bezpiecznie.</p>
+        <div class="cena">13 000 - 18 000 zł<small>netto miesięcznie</small></div>
+        <a class="btn" href="#kontakt">Zapytaj o ofertę</a>
+      </article>
+      <article class="pakiet">
+        <h3>Board &amp; Founder Advisory</h3>
+        <p>Dla właścicieli, zarządów i marek, które potrzebują wsparcia na poziomie decyzji strategicznych.</p>
+        <div class="cena">18 000 - 35 000 zł<small>netto miesięcznie</small></div>
+        <a class="btn btn-ciemny" href="#kontakt">Zapytaj o ofertę</a>
+      </article>
+    </div>
+    <p class="uwaga">Z pakietów korzystają m.in. founderzy, kliniki premium, firmy rodzinne, sieci placówek medycznych, rozwijające się grupy i firmy przygotowujące się do skalowania, marki pod presją rynku, mediów i partnerów biznesowych.</p>
+  </div>
+</section>
+
+<section class="szary" id="szkolenia">
+  <div class="wrap dwie">
+    <div>
+      <h2>Usługi dodatkowe</h2>
+      <ul class="lista">
+        <li><i class="belka"></i>pełny audyt marki: PR + CSR + ESG + reputacja</li>
+        <li><i class="belka"></i>strategia odpowiedzialnej marki i reputacji</li>
+        <li><i class="belka"></i>warsztaty dla zarządu i liderów (board workshop)</li>
+        <li><i class="belka"></i>polityka i standard "zero dla dyskryminacji" + governance + wdrożenie</li>
+        <li><i class="belka"></i>ESG narrative pack</li>
+        <li><i class="belka"></i>projekt kampanii społecznej premium</li>
+        <li><i class="belka"></i>przygotowanie founder / executive positioning</li>
+        <li><i class="belka"></i>konsultacje kryzysowe high sensitivity</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Szkolenia</h2>
+      <ul class="lista">
+        <li><i class="belka"></i>4 pokolenia na rynku pracy</li>
+        <li><i class="belka"></i>zero dla dyskryminacji</li>
+        <li><i class="belka"></i>stop dla mobbingu</li>
+        <li><i class="belka"></i>high ticket: PR + CSR + ESG + reputacja</li>
+        <li><i class="belka"></i>lider przyszłości</li>
+        <li><i class="belka"></i>nowy wymiar HR</li>
+        <li><i class="belka"></i>BHP jako wyraz świadomego ESG</li>
+      </ul>
+      <img class="foto-szkolenia" src="img/zespol.webp" width="782" height="784" alt="Zespół medyków łączący dłonie" loading="lazy" style="aspect-ratio:auto;max-width:420px">
+    </div>
+  </div>
+</section>
+
+<section id="projekty">
+  <div class="wrap">
+    <div class="naglowek">
+      <h2>Projekty KIWI ART</h2>
+      <p>kiwi-art.pl to strona matka naszych projektów. Każdy z nich ma własną stronę.</p>
+    </div>
+    <div class="projekty">
+      <a class="projekt" href="https://rzecznikprawseniora.pl" rel="noopener">
+        <div class="lg"><img src="img/p-rzecznik.webp" width="146" height="78" alt="Logo Rzecznik Praw Seniora" loading="lazy"></div>
+        <h3>Rzecznik Praw Seniora</h3>
+        <p>Mediacje i działania w obronie praw seniorów.</p>
+        <span class="adres">rzecznikprawseniora.pl</span>
+      </a>
+      <a class="projekt" href="https://mediatorcafe.pl" rel="noopener">
+        <div class="lg"><img src="img/p-mediator.webp" width="165" height="87" alt="Logo Mediator Cafe" loading="lazy"></div>
+        <h3>Mediator Cafe</h3>
+        <p>Marka mediacyjna KIWI ART.</p>
+        <span class="adres">mediatorcafe.pl</span>
+      </a>
+      <a class="projekt" href="https://fundacjaintegracja.org/" rel="noopener">
+        <div class="lg"><img src="img/p-fundacja.webp" width="480" height="248" alt="Logo Fundacji Integracja Pokoleń" loading="lazy"></div>
+        <h3>Fundacja Integracja Pokoleń</h3>
+        <p>Projekt z rodziny KIWI ART.</p>
+        <span class="adres">fundacjaintegracja.org</span>
+      </a>
+      <a class="projekt" href="https://wuchtalap.pl/" rel="noopener">
+        <div class="lg"><img src="img/p-wuchtalap.webp" width="480" height="124" alt="Logo Wuchtałap Dogtrekking" loading="lazy"></div>
+        <h3>Wuchtałap Dogtrekking</h3>
+        <p>Dogtrekking, czyli wędrówki z psami.</p>
+        <span class="adres">wuchtalap.pl</span>
+      </a>
+    </div>
+    <div class="marki">
+      <p>Marki, z którymi pracowaliśmy:</p>
+      <img src="img/k-doz.webp" width="480" height="140" alt="DOZ S.A." loading="lazy">
+      <img src="img/k-bayer.webp" width="480" height="480" alt="Bayer" loading="lazy">
+      <img src="img/k-luxmed.webp" width="480" height="159" alt="Grupa LUX MED" loading="lazy">
+      <img src="img/k-plusz.webp" width="213" height="117" alt="Logo +:)z" loading="lazy">
+      <img src="img/k-swiatzdrowia.webp" width="480" height="507" alt="Świat Zdrowia" loading="lazy">
+      <img src="img/k-essilor.webp" width="310" height="310" alt="Essilor" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="szary">
+  <div class="wrap dwie">
+    <div>
+      <h2>Efekty naszej pracy</h2>
+      <ul class="lista">
+        <li><i class="belka"></i>spójność między komunikacją a działaniami</li>
+        <li><i class="belka"></i>marki etyczne i społecznie odpowiedzialne</li>
+        <li><i class="belka"></i>zrozumienie dla CSR i ESG</li>
+        <li><i class="belka"></i>dojrzałość społeczna i organizacyjna firm</li>
+        <li><i class="belka"></i>wysoka jakość zarządzania w firmach</li>
+        <li><i class="belka"></i>gotowość firm do funkcjonowania w standardach ESG</li>
+        <li><i class="belka"></i>wiarygodne, odpowiedzialne i spójne strategie</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Pytania</h2>
+      <div style="margin-top:14px">
+        <details open><summary>Jaki zakres wchodzi w pakiet Executive?</summary><p>W zależności od pakietu to m.in.: konkretna liczba spotkań strategicznych, audyty, projektowanie działań, identyfikacja kluczowych ryzyk i szans, mapa działań i rekomendacji, konsultacje kryzysowe, wsparcie 24/7.</p></details>
+        <details><summary>Dla kogo są pakiety PR, CSR i ESG?</summary><p>M.in. dla marek premium na etapie porządkowania: founderów, klinik premium, firm rodzinnych, sieci placówek medycznych, rozwijających się grup i firm przygotowujących się do skalowania, marek pod presją rynku, mediów i partnerów biznesowych.</p></details>
+        <details><summary>Dlaczego warto rozwijać PR, CSR i ESG?</summary><p>Dziś reputacja, odpowiedzialność i widoczność nie są już odrębnymi obszarami. Tworzą jeden system zaufania wokół marki. Firmy, które chcą rosnąć stabilnie i prestiżowo, potrzebują strategicznego zarządzania narracją marki.</p></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="kontakt" id="kontakt">
+  <div class="wrap">
+    <div>
+      <h2>We can't wait to see You grow!</h2>
+      <p>Masz pytania? Napisz lub zadzwoń, opowiedz o swojej marce, a zaproponuję zakres współpracy.</p>
+      <div class="przyciski">
+        <a class="btn btn-ciemny" href="mailto:malgorzata@kiwi-art.pl">malgorzata@kiwi-art.pl</a>
+        <a class="btn btn-ciemny" href="tel:+48507110885" style="background:#fff;color:var(--zielen)">507 110 885</a>
+      </div>
+      <p class="dane"><b style="color:var(--czern)">KIWI ART Sp. z o.o.</b><br>ul. Łubinowa 59, 87-100 Toruń<br>KRS 0000303835, NIP 956-221-70-86, REGON 340417780<br>kapitał zakładowy 125 000 zł<br><a href="https://malgorzatakaczorek.pl" rel="noopener">malgorzatakaczorek.pl</a></p>
+    </div>
+    <div class="mapa">
+      <iframe title="Mapa: KIWI ART, ul. Łubinowa 59, Toruń" src="https://maps.google.com/maps?q=%C5%81ubinowa%2059%2C%2087-100%20Toru%C5%84&amp;z=14&amp;output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="KIWI ART - do góry">
+      <svg viewBox="0 0 64 52" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 33 35 7"/><path d="M19 45 30 34 40 44"/><path d="M38 23 54 39"/></g></svg>
+      <span>kiwiART</span>
+    </a>
+    <span>PR | CSR | ESG | more than fair. &copy; 2026 KIWI ART Sp. z o.o.</span>
+    <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=kiwi-art.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+</footer>
+
+<script>
+(function(){var b=document.querySelector('.burger'),m=document.getElementById('menu');
+b.addEventListener('click',function(){var o=m.classList.toggle('otwarte');b.setAttribute('aria-expanded',o)});
+m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.classList.remove('otwarte');b.setAttribute('aria-expanded','false')}});})();
+</script>
+</body>
+</html>
